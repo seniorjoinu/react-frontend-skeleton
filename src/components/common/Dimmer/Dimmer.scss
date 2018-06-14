@@ -1,0 +1,14 @@
+.dimmer {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(64, 64, 64, 0.5);
+  position: absolute;
+  z-index: 1;
+
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+}
