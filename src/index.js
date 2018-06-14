@@ -8,7 +8,6 @@ import {applyMiddleware, combineReducers, createStore} from 'redux'
 
 import reducers from './state/reducers'
 import Index from "./components/pages/Index";
-import thunk from 'redux-thunk'
 import logger from 'redux-logger'
 import Index1 from "./components/pages/Index1";
 
@@ -20,7 +19,7 @@ export const store = createStore(
         ...reducers,
         router: routerReducer
     }),
-    applyMiddleware(router, thunk, logger)
+    applyMiddleware(router, logger)
 );
 
 export const doAction = (type, payload) => store.dispatch({type, payload});

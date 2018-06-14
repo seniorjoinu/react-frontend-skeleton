@@ -4,7 +4,7 @@ Bootstrap your development with minimalistic (e.g. more productive) setup
 #### What's inside
 * Webpack (with dev server configured for hmr),
 * Babel (env, stage-0, jsx), Sass, Postcss (with imports)
-* React, Redux, Router, Logger, Thunks (without actual redux-thunk lib)
+* React, Redux, Router, Logger
 * Qwest (lightweight ajax)
 
 #### Install, build, run
